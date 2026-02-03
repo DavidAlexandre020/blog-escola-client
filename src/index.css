@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #e6e6ff;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-text a {
+  text-decoration: underline;
+  color: #0161c2;
+}
+.content-text a:hover {
+  text-decoration: none;
+  color: #7600a9;
+}
+
+.content-text ul, ol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-text ul {
+  list-style: disc;
+}
+.content-text ul li {
+  list-style: disc;
+  margin-left: 68px;
+}
+
+.content-text ol {
+  list-style: decimal;
+}
+.content-text ol li {
+  list-style: decimal;
+  margin-left: 68px;
+}
+
+.content-text iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.content-text blockquote {
+  border-left: 5px solid #151B23;
+  padding: 0 22px;
+  margin-left: 12%;
+}
+
+.content-text .ql-code-block-container {
+  color: #e8e8e8;
+  background-color: #151B23;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-align: start;
+}
+
+.animatedButton{
+    animation-duration: 10000ms;
+}
+
+.ql-container {
+    border: none !important;
+}
+.ql-toolbar {
+    border: none !important;
+    border-bottom: 1px solid #cdcdcd !important;
+}
+.ql-editor {
+    border: none !important;
+}
+
+.main-header {
+  position: relative;
+  background-color: #e6e6ff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  transition: all .3s ease;
+}
+
+.main-header.sticky-header {
+  position: sticky;
+  /* top: -5px; */
+  animation: stickyHeader 0.3s ease forwards;
+}
+
+.container {
+  background-color: #e6e6ff;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@keyframes stickyHeader {
+  0% {
+      transform: translateY(-80px);
+  }
+  100% {
+      transform: translateY(0px);
+  }
+}
+
+.loader {
+  animation: loaderAnimation .5s infinite linear;
+}
+
+@keyframes loaderAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+  .share {
+    transition: all .3s ease-in-out;
+  }
+
+  .privacy h1 {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 600;
+  }
+
+  .privacy h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+  }
+
+  .privacy h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+  }
+
+  .privacy h4 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+
+  .privacy a {
+    text-decoration: underline;
+  }
+
+  .privacy a:nth-child(2) {
+    color: #008461;
+  }
+
+  .privacy ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 2.5rem;
+  }
+  .privacy li {
+    list-style: disc;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .links {
+      gap: 50px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .links {
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .privacy h1 {
+      font-size: 2rem;
+      line-height: 1;
+      font-weight: 600;
+    }
+
+    .privacy h2 {
+      font-size: 1rem;
+      line-height: 2.25rem;
+      font-weight: 600;
+    }
+
+    .privacy ul {
+      margin-left: 1rem;
+    }
+
+    .content-text ul li {
+      list-style: decimal;
+      margin-left: 20px;
+    }
+    .content-text ol li {
+      list-style: decimal;
+      margin-left: 20px;
+    }
+
+    .content-text iframe {
+      width: 100%;
+      height: 300px;
+    }
+      
+    .content-text blockquote {
+      padding: 0 14px;
+      margin-left: 4%;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .links {
+      font-size: 14px;
+    }
+    .content-text ul li {
+      list-style: decimal;
+      margin-left: 18px;
+    }
+    .content-text ol li {
+      list-style: decimal;
+      margin-left: 18px;
+    }
+  }
