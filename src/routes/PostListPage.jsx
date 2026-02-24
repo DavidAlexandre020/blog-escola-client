@@ -11,7 +11,7 @@ export default function PostListPage() {
   return (
     <div className=''>
       <Helmet
-         title="Posts Tecnodog"
+         title="Posts J.T.J.Z"
          largeTwitterCard={true}
          addPostfixTitle={true}
       />

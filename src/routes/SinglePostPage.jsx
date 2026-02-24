@@ -40,7 +40,7 @@ export default function SinglePostPage() {
   if (!data) return <NotFound />;
 
   const sharePost = `https://tecnodog.vercel.app/${slug}`
-  const cardImage = `https://ik.imagekit.io/tecnodog${data.img}`
+  const cardImage = `https://ik.imagekit.io/wzxo0th4a${data.img}`
 
   return (
     <div>
@@ -154,20 +154,23 @@ export default function SinglePostPage() {
             <Link className="underline" to="/posts">
               Todos
             </Link>
-            <Link className="underline" to="/posts?cat=jogos">
-              Jogos
+            <Link className="underline" to="/posts?cat=atividades">
+              Atividades
+            </Link>
+            <Link className="underline" to="/posts?cat=cursos">
+              Cursos
+            </Link>
+            <Link className="underline" to="/posts?cat=saude">
+              Saúde
             </Link>
             <Link className="underline" to="/posts?cat=tecnologia">
               Tecnologia
             </Link>
-            <Link className="underline" to="/posts?cat=programação">
-              programação
-            </Link>
-            <Link className="underline" to="/posts?cat=marketing">
-              Marketing
+            <Link className="underline" to="/posts?cat=gestao">
+              Gestão
             </Link>
             <Link className="underline" to="/posts?cat=news">
-              News
+              Noticias
             </Link>
           </div>
           <h1 className="mt-8 mb-4 text-sm font-medium">Pesquisa</h1>

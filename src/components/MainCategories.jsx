@@ -13,10 +13,22 @@ export default function MainCategories() {
           Todos
         </Link>
         <Link
-          to="/posts?cat=jogos"
+          to="/posts?cat=atividades"
           className="hover:bg-blue-50 rounded-full px-4 py-2"
         >
-          Jogos
+          Atividades
+        </Link>
+        <Link
+          to="/posts?cat=cursos"
+          className="hover:bg-blue-50 rounded-full px-4 py-2"
+        >
+          Cursos
+        </Link>
+        <Link
+          to="/posts?cat=saude"
+          className="hover:bg-blue-50 rounded-full px-4 py-2"
+        >
+          Saúde
         </Link>
         <Link
           to="/posts?cat=tecnologia"
@@ -25,22 +37,16 @@ export default function MainCategories() {
           Tecnologia
         </Link>
         <Link
-          to="/posts?cat=programação"
+          to="/posts?cat=gestao"
           className="hover:bg-blue-50 rounded-full px-4 py-2"
         >
-          Programação
-        </Link>
-        <Link
-          to="/posts?cat=marketing"
-          className="hover:bg-blue-50 rounded-full px-4 py-2"
-        >
-          Marketing
+          Gestão
         </Link>
         <Link
           to="/posts?cat=news"
           className="hover:bg-blue-50 rounded-full px-4 py-2"
         >
-          News
+          Noticias
         </Link>
       </div>
       <span className="text-xl font-medium">|</span>

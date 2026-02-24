@@ -12,7 +12,7 @@ export default function Homepage() {
     <div>
       <div className='mt-4 flex flex-col gap-4'>
       <Helmet
-        title="Tecnodog"
+        title="J.T.J.Z | Escola"
         largeTwitterCard={true}
         addPostfixTitle={true}
       />
@@ -27,15 +27,17 @@ export default function Homepage() {
         {/* titles */}
         <div className=''>
           <h1 className='text-gray-800 text-2xl md:text-5xl lg:text-6xl font-bold'>
-            Bem-vindo ao Complexo Escolar Privado J.T.J.Z
+            Bem-vindo ao Complexo Escolar Privado <span className='text-[#147260]'> 
+              J.T.J.Z
+            </span>
           </h1>
           <p className='mt-8 text-md md:text-xl'>
-            O seu parceiro ideal no mundo da tecnologia!
+            Confiança no futuro.
           </p>
         </div>
         {/* animated button */}
-        <div className="w-[360px] h-[300px] hidden md:block relative">
-          <Image className='w-full h-full object-cover' src='/feature.png' alt='Dog tecno engineer' />
+        <div className="w-[520px] h-[400px] hidden md:block relative">
+          <Image className='w-[460px] h-[500px] bottom-[-15px] object-cover absolute' src='/feature_modelo.png' alt='Dog tecno engineer' />
         </div>
       </div>
       {/* CATEGORIES */}

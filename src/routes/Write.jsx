@@ -102,12 +102,13 @@ export default function Write() {
             id="" 
             className="p-2 rounded-xl bg-white shadow-md"
           >
-            <option value="geral">Geral</option>
-            <option value="jogos">Jogos</option>
+            <option value="">Selecione a categoria</option>
+            <option value="atividades">Atividades</option>
+            <option value="cursos">Cursos</option>
+            <option value="saude">Saúde</option>
             <option value="tecnologia">Tecnologia</option>
-            <option value="programação">Programação</option>
-            <option value="marketing">Marketing</option>
-            <option value="news">News</option>
+            <option value="gestao">Gestão</option>
+            <option value="news">Noticias</option>
           </select>
         </div>
         <textarea 
