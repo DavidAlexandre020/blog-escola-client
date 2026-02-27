@@ -28,8 +28,8 @@ export default function Navbar() {
     <div className={`w-full h-16 md:h-20 flex items-center justify-between main-header ${scrolled ? "sticky-header" : ""}`}>
         {/* LOGO */}
         <Link to='/' className='flex items-center gap-2 text-2xl font-bold'>
-            <Image src='/logo.png' alt='Logo' w={48} h={48} />
-            <span className="text-[#152751]">J.T.J.Z<span className='text-[#147260]'> Blog.</span></span>
+            <Image src='/mini_logo.png' alt='Logo' w={48} h={48} />
+            <span className="text-[#152751]">JTJZ<span className='text-[#147260]'> Blog.</span></span>
         </Link>
         {/* MOBILE MENU */}
         <div className='md:hidden'>

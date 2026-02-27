@@ -12,7 +12,7 @@ export default function Homepage() {
     <div>
       <div className='mt-4 flex flex-col gap-4'>
       <Helmet
-        title="J.T.J.Z | Escola"
+        title="JTJZ | Escola"
         largeTwitterCard={true}
         addPostfixTitle={true}
       />
@@ -28,11 +28,11 @@ export default function Homepage() {
         <div className=''>
           <h1 className='text-gray-800 text-2xl md:text-5xl lg:text-6xl font-bold'>
             Bem-vindo ao Complexo Escolar Privado <span className='text-[#147260]'> 
-              J.T.J.Z
+              JTJZ
             </span>
           </h1>
           <p className='mt-8 text-md md:text-xl'>
-            Confiança no futuro.
+            Uma escola Transformadora ao Serviço da Sociedade
           </p>
         </div>
         {/* animated button */}

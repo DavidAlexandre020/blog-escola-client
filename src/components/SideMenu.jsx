@@ -77,7 +77,7 @@ const SideMenu = () => {
         <span className="underline cursor-pointer" onClick={()=>handleCategoryChange("saude")}>Saúde</span>
         <span className="underline cursor-pointer" onClick={()=>handleCategoryChange("tecnologia")}>Tecnologia</span>
         <span className="underline cursor-pointer" onClick={()=>handleCategoryChange("gestao")}>Gestão</span>
-        <span className="underline cursor-pointer" onClick={()=>handleCategoryChange("news")}>News</span>
+        <span className="underline cursor-pointer" onClick={()=>handleCategoryChange("news")}>Noticias</span>
       </div>
     </div>
   );

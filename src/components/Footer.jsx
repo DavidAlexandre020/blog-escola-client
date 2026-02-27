@@ -10,22 +10,22 @@ export default function Footer() {
       <div className='flex-1 flex flex-col gap-3'>
         <div className='flex items-center gap-2'>
           <Image 
-            src="logodog.png" alt="" 
+            src="mini_logo.png" alt="" 
             w={48} h={48}
             />
           <h1 className='text-2xl text-[#152751]'>
-              J.T.J.Z <span className='text-[#147260] font-medium'> 
+              JTJZ <span className='text-[#147260] font-medium'> 
               Blog
             </span>
           </h1>
         </div>
         <p className='font-light'>
-            Tecnodog, o seu parceiro ideal no mundo da tecnologia! Somos 
-            apaixonados por inovação e dedicados a fornecer soluções 
-            tecnológicas de ponta que impulsionam o sucesso dos nossos usuários.
+            JTJZ, Complexo Escolar Privado Juliana Teresa João Zakai
+            <br />
+            Escola do ensino médio. Uma Escola Transformadora ao Serviço da Sociedade
         </p>
         <div className='font-light'>
-          copyright &copy; Tecnodog 2025 - {year} | Todos os direitos reservados
+          copyright &copy; Escola JTJZ 2025 - {year} | Todos os direitos reservados
         </div>
       </div>
       <div className='flex-1 flex justify-end gap-[100px] links'>
@@ -50,8 +50,9 @@ export default function Footer() {
           <span className='font-bold'>Outros</span>
           <Link to='/posts?sort=trending'>Tendências</Link>
           <Link to='/posts?sort=popular'>Populares</Link>
-          <Link to='https://www.facebook.com/tecnodog/' target="_blank">Facebook</Link>
-          <Link to='https://www.facebook.com/tecnodog/' target="_blank">Instagram</Link>
+          <Link to='http://facebook.com/escola.jtjz/' target="_blank">Facebook</Link>
+          <Link to='#' target="_blank">Instagram</Link>
+          <Link to='#' target="_blank">TikTok</Link>
         </div>
       </div>
     </div>

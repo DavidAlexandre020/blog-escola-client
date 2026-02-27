@@ -4,7 +4,7 @@ export default function Loader() {
         <div className='relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
             <img 
                 className='w-full h-full object-cover'
-                src="/dog-loader.gif" 
+                src="/school-loader.png" 
                 alt="loading"
             />
         </div>
